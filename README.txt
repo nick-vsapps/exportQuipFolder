@@ -11,6 +11,9 @@ run using 'python QuipFolderExporter.py'
 
 
 SUGGESTED UPDATES:
+- use manifest for dup checking to reduce API calls
+- check Company level API limit as well as user
+- use async and queues to speed up processing
 - add command line options.
 - convert README to Markdown
 - add options for other export types (only Markdown currently)
